@@ -1,6 +1,5 @@
 name: My plan
 level: beginner
-update_id: 14fe6c66-a3a1-47f2-bae2-7cfe8288630e
 author: Jit
 version: 0.1
 owners:
@@ -11,3 +10,7 @@ tags: []
 items:
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
+  - name: Generate a Software Bill of Materials (SBOM)
+    uses: >-
+      jitsecurity-controls/jit-plans/items/code/item-software-bill-of-materials.yml@latest
+
